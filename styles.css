@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'DOSMyungjo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DOSMyungjo';
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    letter-spacing:-0.05em;
+}
+
+
+.container {
+    background-image: url('bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; /* 또는 contain */
+    padding: 45px 0 45px 0;
+    position: relative;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+#moon {
+    font-size: 160px;
+    margin: 10px 0 0 0;
+}
+
+#solar, #lunar {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+#desc {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#ganji {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#weekday {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+a {
+    font-family: "Malgun Gothic", "맑은 고딕";
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer {
+    font-family: "Malgun Gothic", "맑은 고딕";
+    background: #008080;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
