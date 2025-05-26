@@ -25,43 +25,52 @@ fetch(url)
     let moonEmoji = "?";
     let moonDesc = "알 수 없음";
     if (lunDay >= 1 && lunDay <= 2) {
-        moonEmoji = "🌑";
+        //moonEmoji = "🌑";
+        moonEmoji = "m1";
         moonDesc = "삭 (New Moon)";
     }
     else if (lunDay >= 3 && lunDay <= 6) {
-        moonEmoji = "🌒";
+        //moonEmoji = "🌒";
+        moonEmoji = "m2";
         moonDesc = "초승달 (Waxing Crescent)";
     }
     else if (lunDay >= 7 && lunDay <= 10) {
-        moonEmoji = "🌓";
+        //moonEmoji = "🌓";
+        moonEmoji = "m3";
         moonDesc = "상현달 (First Quarter)";
     }
     else if (lunDay >= 11 && lunDay <= 14) {
-        moonEmoji = "🌔";
+        //moonEmoji = "🌔";
+        moonEmoji = "m4";
         moonDesc = "보름 전 (Waxing Gibbous)";
     }
     else if (lunDay === 15) {
-        moonEmoji = "🌕";
+        //moonEmoji = "🌕";
+        moonEmoji = "m5";
         moonDesc = "보름달 (Full Moon)";
     }
     else if (lunDay >= 16 && lunDay <= 19) {
-        moonEmoji = "🌖";
+        //moonEmoji = "🌖";
+        moonEmoji = "m6";
         moonDesc = "보름 후 (Waning Gibbous)";
     }
     else if (lunDay >= 20 && lunDay <= 23) {
-        moonEmoji = "🌗";
+        //moonEmoji = "🌗";
+        moonEmoji = "m7";
         moonDesc = "하현달 (Last Quarter)";
     }
     else if (lunDay >= 24 && lunDay <= 27) {
-        moonEmoji = "🌘";
+        //moonEmoji = "🌘";
+        moonEmoji = "m8";
         moonDesc = "그믐 전 (Waning Crescent)";
     }
     else if (lunDay >= 28 && lunDay <= 30) {
-        moonEmoji = "🌑";
+        //moonEmoji = "🌑";
+        moonEmoji = "m1";
         moonDesc = "그믐 (Dark Moon)";
     }
 
-    document.getElementById("moon").innerHTML = `${moonEmoji}`;
+    document.getElementById("moon").innerHTML = `<img src="img/${moonEmoji}.png" alt="${moonDesc}" />`;
 
     document.getElementById("desc").innerHTML = `${moonDesc}`;
 

@@ -2,16 +2,16 @@
     "manifest_version": 3,
     "name": "오늘 날짜",
     "description": "오늘의 양력과 음력, 달의 모양(달의 위상), 간지, 요일 정보를 한눈에 확인할 수 있는 확장 프로그램",
-    "version": "1.0",
+    "version": "1.01",
     "action": {
         "default_popup": "index.html",
         "default_icon": {
-            "32": "icon32.png",
-            "128": "icon128.png"
+            "32": "img/icon32.png",
+            "128": "img/icon128.png"
         }
     },
     "icons": {
-        "32": "icon32.png",
-        "128": "icon128.png"
+        "32": "img/icon32.png",
+        "128": "img/icon128.png"
     }
 }

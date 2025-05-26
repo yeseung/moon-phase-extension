@@ -22,7 +22,7 @@ body {
 
 
 .container {
-    background-image: url('bg.jpg');
+    background-image: url('img/bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; /* 또는 contain */
@@ -36,8 +36,11 @@ h1 {
 }
 
 #moon {
-    font-size: 160px;
-    margin: 10px 0 0 0;
+    margin: 20px 0;
+}
+
+#moon img{
+    width: 160px;
 }
 
 #solar, #lunar {
